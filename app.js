@@ -18,11 +18,11 @@ cartao.innerHTML = `
     let respostaEstavisivel= false;
 
  function viracartao(){
-     respostasEstavisivel = !respostasEstavisivel;
-     cartao.classList.toggle('active', respostaEstavisivel);
+        respostasEstavisivel = !respostasEstavisivel;
+        cartao.classList.toggle('active', respostaEstavisivel);
  }
 
-cartao.addEventListener('click, viracartao')
+    cartao.addEventListener('click, viracartao')
 
     container.appendChild(cartao);
 
