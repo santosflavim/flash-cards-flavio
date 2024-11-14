@@ -14,6 +14,16 @@ cartao.innerHTML =
                     </div>
                 </div>
                 `
+
+    let respostasEstavisivel= false
+
+ function viracartao(){
+     respostasEstavisivel = !respostasEstavisivel;
+     cartao.classList.toggle('active', respostaEstavisivel);
+ }
+
+cartao.addEventListener('click, viracartao')
+
     container.appendChild(cartao);
 
 }
